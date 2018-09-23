@@ -10,7 +10,7 @@ class Comment extends Model
         'comment', 'gallery_id', 'user_id'
     ];
 
-    public function users()
+    public function user()
     {
         return $this->belongsTo('App\User');
     }

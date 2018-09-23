@@ -10,7 +10,7 @@ class Gallery extends Model
         'title', 'description', 'user_id'
     ];
 
-    public function users()
+    public function user()
     {
         return $this->belongsTo('App\User');
     }
